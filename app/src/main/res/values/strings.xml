@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">MotorSportOnline</string>
+
+    <string-array name="taller">
+        <item>AutoPlanet Ovalle</item>
+        <item>Frenos Continental Ovalle</item>
+        <item>Lubricar</item>
+        <item>Lubricentro NASH CARS</item>
+        <item>Neumáticos AZedan Ovalle</item>
+        <item>Parabrisas UVcristal Ovalle</item>
+    </string-array>
+
+    <string-array name="ubicacion">
+        <item>DIR: AV. Gobernadora Laura Pizarro \n1030, Ovalle,COQ</item>
+        <item>DIR: Avda. David Perry 269,Ovalle,COQ</item>
+        <item>DIR: Ariztía Oriente 911,Ovalle,COQ</item>
+        <item>DIR: Aristía Oriente 967,Ovalle,COQ</item>
+        <item>DIR: Maestranza 397,Ovalle,COQ</item>
+        <item>DIR:El Mirador 275,Ovalle,COQ</item>
+    </string-array>
+
+    <string-array name="horario">
+        <item>Lunes A Viernes 10:00- 19:00 \nDomingo 11:00-19:00</item>
+        <item>lunes A Viernes  9:00–18:00 \nSabado 9:00-14:00\nDomingo CERRADO</item>
+        <item>Lunes A Viernes 9:00-13:00,14:30-18:00 \nSabado 9:30-13:30 \nDomingo CERRADO </item>
+        <item>lunes A Viernes  8:30–13:00,15:00–18:30 \nSabado 8:30-13:30, 15:00-18:00 \nDomingo CERRADO</item>
+        <item>lunes A Viernes 9:00-19:00 \nSabado 9:00-14:00 \nDomingo CERRADO</item>
+        <item>lunes A Viernes 9:00-18:00 \nSabado 9:00-14:00 \nDomingo CERRADO</item>
+    </string-array>
+
+    <string-array name="tipodereparacion">
+        <item>Centro Comercial</item>
+        <item>Taller De Reparacion Para Automóviles</item>
+        <item>Tienda De Neumáticos Y Lubricantes</item>
+        <item>Cambio De Aceite,Venta Accesorios</item>
+        <item>Tienda De Neumaticos</item>
+        <item>Tienda De Repuestos Para Automóviles</item>
+    </string-array>
+
+    <string-array name="contacto">
+        <item>(2) 2550 3427</item>
+        <item>9 91151 3112</item>
+        <item>9 8548 7592</item>
+        <item>9 9912 0930</item>
+        <item>600 583 7600</item>
+        <item>9 91151 3112</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

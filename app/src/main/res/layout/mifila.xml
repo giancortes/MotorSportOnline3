@@ -58,28 +58,21 @@
                 app:layout_constraintTop_toBottomOf="@+id/taller" />
 
             <TextView
-                android:id="@+id/horario"
+                android:id="@+id/tipodereparacion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Horario"
                 app:layout_constraintStart_toStartOf="@+id/ubicacion"
                 app:layout_constraintTop_toBottomOf="@+id/ubicacion" />
 
-            <TextView
-                android:id="@+id/tiporeparacion"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tipo De Reparacion"
-                app:layout_constraintStart_toStartOf="@+id/ubicacion"
-                app:layout_constraintTop_toBottomOf="@+id/horario" />
 
             <TextView
                 android:id="@+id/contacto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Contacto"
-                app:layout_constraintStart_toStartOf="@+id/ubicacion"
-                app:layout_constraintTop_toBottomOf="@+id/tiporeparacion" />
+                app:layout_constraintStart_toStartOf="@+id/tipodereparacion"
+                app:layout_constraintTop_toBottomOf="@+id/tipodereparacion" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>

@@ -28,15 +28,6 @@
         <item>lunes A Viernes 9:00-18:00 \nSabado 9:00-14:00 \nDomingo CERRADO</item>
     </string-array>
 
-    <string-array name="tipodereparacion">
-        <item>Centro Comercial</item>
-        <item>Taller De Reparacion Para Automóviles</item>
-        <item>Tienda De Neumáticos Y Lubricantes</item>
-        <item>Cambio De Aceite,Venta Accesorios</item>
-        <item>Tienda De Neumaticos</item>
-        <item>Tienda De Repuestos Para Automóviles</item>
-    </string-array>
-
     <string-array name="contacto">
         <item>(2) 2550 3427</item>
         <item>9 91151 3112</item>
@@ -46,4 +37,21 @@
         <item>9 91151 3112</item>
     </string-array>
     <string name="title_activity_maps">Map</string>
+
+    <string name="ubicacion">Ubicación</string>
+    <string name="alta">Registrar</string>
+    <string name="horario">Horario</string>
+    <string name="contacto">Contacto</string>
+    <string name="nombre">Nombre</string>
+
+    <string name="modificacion_de_datos">Modificacion de datos</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="consulta_taller">Consulta</string>
+    <string name="ingreso">Ingresar</string>
+    <string name="Contacto">Contacto</string>
+    <string name="Horario">Horario</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Ubicacion">Ubicacion</string>
+    <string name="nodo_Persona">Persona</string>
+
 </resources>

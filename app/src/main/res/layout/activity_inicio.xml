@@ -7,52 +7,16 @@
     tools:context=".Inicio">
 
     <Button
-        android:id="@+id/boton_registrar_evento"
-        android:layout_width="291dp"
-        android:layout_height="61dp"
-        android:text="REGISTRAR EVENTO"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55" />
-
-    <Button
-        android:id="@+id/boton_registrar_taller"
-        android:layout_width="291dp"
-        android:layout_height="61dp"
-        android:text="REGISTAR TALLER"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.70" />
-
-    <Button
         android:id="@+id/boton_entrar"
         android:layout_width="291dp"
         android:layout_height="61dp"
         android:text="TALLERES Y/O CENTRO COMERCIALES"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintHorizontal_bias="0.591"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25" />
-
-    <Button
-        android:id="@+id/EventoYShow"
-        android:layout_width="291dp"
-        android:layout_height="61dp"
-        android:text="EVENTOS  Y/O SHOW"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.40" />
+        app:layout_constraintVertical_bias="0.228" />
 
     <ImageView
         android:id="@+id/imageViewFondo"
@@ -63,7 +27,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -71,30 +35,26 @@
 
     <Button
         android:id="@+id/boton_mapa"
-        android:layout_width="281dp"
-        android:layout_height="66dp"
+        android:layout_width="291dp"
+        android:layout_height="61dp"
         android:text="VER  MAPA"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewFondo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintHorizontal_bias="0.623"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.875" />
+        app:layout_constraintVertical_bias="0.639" />
 
-    <TextView
-        android:id="@+id/bienvendinos"
-        android:layout_width="285dp"
-        android:layout_height="79dp"
-        android:text="BIENVENIDOS"
-        android:textAlignment="center"
-        android:textColor="#151515"
-        android:textSize="45sp"
-        android:textStyle="italic"
+    <Button
+        android:id="@+id/registrar_taller"
+        android:layout_width="282dp"
+        android:layout_height="62dp"
+        android:text="Registrar Nuevo Taller y/o centro comercial"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintHorizontal_bias="0.591"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.098" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewFondo"
+        app:layout_constraintVertical_bias="0.435" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "760595549327",
+    "firebase_url": "https://motorsportonline.firebaseio.com",
+    "project_id": "motorsportonline",
+    "storage_bucket": "motorsportonline.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760595549327:android:ebd95ab9121cd526f6f4fa",
+        "android_client_info": {
+          "package_name": "com.example.motorsportonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760595549327-48kruf482rnoedf5kkqq3vu0q35ppjan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.motorsportonline",
+            "certificate_hash": "af617c8a7adac599b57d3cbafb5a032065c16ee9"
+          }
+        },
+        {
+          "client_id": "760595549327-asuabmmuqv8aoseskgtbb9pco6p35b42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_CFg3arzuE8Jc0CyT5evhmFR604Yt2xE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760595549327-asuabmmuqv8aoseskgtbb9pco6p35b42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

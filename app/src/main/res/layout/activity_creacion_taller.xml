@@ -1,69 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="LabelFor"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="48dp">
+    android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/texto_conectar"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
-        android:text="REGISTRA TU TALLER AQUI"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/nombre" />
 
     <EditText
-        android:id="@+id/taller"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
-        android:hint="Nombre" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNom"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNom"
+        android:layout_alignParentStart="true"
+        android:text="@string/ubicacion" />
 
     <EditText
-        android:id="@+id/ubicacion"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
-        android:hint="Ubicacion" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUbi"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:inputType="text"
+        android:layout_alignEnd="@+id/txtNom"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtUbi"
+        android:layout_alignParentStart="true"
+        android:text="@string/horario" />
 
     <EditText
-        android:id="@+id/horario"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
-        android:hint="Horario" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHor"
+        android:layout_below="@+id/textView4"
+        android:layout_alignEnd="@+id/txtUbi"
+        android:inputType="text"
+        android:layout_alignParentStart="true"
+        android:autofillHints="" />
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHor"
+        android:layout_alignParentStart="true"
+        android:text="@string/contacto" />
 
     <EditText
-        android:id="@+id/tiporeparacion"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
-        android:hint="Tipo De Reparación" />
-
-
-    <EditText
-        android:id="@+id/contacto"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
-        android:hint="Contacto" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCon"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/txtHor"
+        android:inputType="text"
+        android:layout_alignParentEnd="false"
+        android:autofillHints="" />
 
     <Button
-        android:id="@+id/boton_registrar"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
-        android:text="REGISTRAR TALLER" />
+        android:id="@+id/button_ING"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCon"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/ingreso" />
 
-</LinearLayout>
+    <Button
+        android:id="@+id/button_Cons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_ING"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/button_ING"
+        android:text="@string/consulta_taller" />
+
+    <Button
+        android:id="@+id/button_ELIM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_Cons"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="-3dp"
+        android:layout_toEndOf="@+id/button_Cons"
+        android:text="@string/eliminar" />
+
+    <Button
+        android:id="@+id/button_UPD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_ING"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="66dp"
+        android:layout_toEndOf="@+id/button_ING"
+        android:text="@string/modificacion_de_datos" />
+
+</RelativeLayout>

@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     RecyclerView MiRecycler;
-    String nombre[], ubicacion[], horario[], tipodereparacion[], contacto[];
+    String nombre[], ubicacion[], horario[], contacto[];
     int imagenes[] = {R.drawable.autoplanet, R.drawable.frenoscontinental, R.drawable.lubricar, R.drawable.lubricentro, R.drawable.neumaticos, R.drawable.parabrisas};
 
     @Override
@@ -25,10 +25,9 @@ public class MainActivity extends AppCompatActivity {
         nombre = getResources().getStringArray(R.array.taller);
         ubicacion = getResources().getStringArray(R.array.ubicacion);
         horario = getResources().getStringArray(R.array.horario);
-        tipodereparacion = getResources().getStringArray(R.array.tipodereparacion);
         contacto = getResources().getStringArray(R.array.contacto);
 
-        MiAdapter MA = new MiAdapter(this, this.nombre, this.ubicacion, this.horario, this.tipodereparacion, this.contacto, this.imagenes);
+        MiAdapter MA = new MiAdapter(this, this.nombre, this.ubicacion, this.horario,this.contacto, this.imagenes);
         MiRecycler.setAdapter(MA);
         MiRecycler.setLayoutManager(new LinearLayoutManager(this));
 
